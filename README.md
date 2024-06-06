@@ -43,10 +43,5 @@ npm install
 npm run start
 ```
 
-### Technology Used
-
-- React (version 18)
-- React Router
-
 ______________________________
 **Powered by [Grammerhub](http://discord.grammerhub.org)**
