@@ -19,21 +19,22 @@ This entertainment app built with React that simplifies your search for the perf
 
 ### Installation
 
-Clone the repository:
+## Clone the repository
 
 ```bash
 git https://github.com/grammerjam/team-colour-coders.git
+```
 
-
-## Install dependencies:
+## Install dependencies
 
 ```bash
 cd P1/Frontend/entertainment-app
 npm install
+```
 
-## Running The App 
+### Running the app
 
-Start the development server:
+## Start the development server
 
 ```bash
 npm start
