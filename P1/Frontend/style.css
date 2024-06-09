@@ -74,10 +74,13 @@ h2 {
   z-index: 1000 !important;
 }
 .search-field img{
+  padding-bottom: 5px;
   vertical-align: middle;
+  
 }
 .search{
-  width: 50%;
+  padding-left: 15px;
+  width: 80%;
   background-color: inherit;
   color: #979797;
   border: 0;
@@ -86,56 +89,7 @@ h2 {
   font-size: 20px;
 
 }
-@media only screen and (max-width:768px){
-  .navbar{
-    display: none;
-  }
-  .navbar2{
-    display: flex;
-    grid-row: 1;
-    grid-column: 1/-1;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 2 em;
-    justify-content: space-between;
-    background-color: rgb(23,29,46);
-    padding: 10px;
-    align-items: center;
-    border-radius: 5px;
-    
-  }
-  .tabs{
-    margin-top: 50 px;
-    flex-direction: row;
-    margin-right: 5px solid red;
-  }
-  .top{
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 5px solid red;
-    outline: 1px solid blue;
-    /* margin-top: 150px; */
-  }
-  .logo{
-    margin-top: 0px;
-  }
-  .user{
-    margin-top: 35px;
-    margin-right: 5 em;
-    /* width: 100px;
-    height: 20px; */
-  }
-  .search-field{
-    margin-top: 150 px;
-  }
-  .search{
-    margin-top: 2 em;
-  }
- 
-  
-}
 
- 
 
 main {
   grid-column: 2 / 8;
@@ -231,3 +185,61 @@ main {
   grid-column: 4;
   grid-row: 2;
 }
+@media only screen and (max-width:768px){
+  .navbar{
+    display: none;
+  }
+  .navbar2{
+    display: flex;
+    grid-row: 1;
+    grid-column: 1/-1;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2 em;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: rgb(23,29,46);
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    
+  }
+  .tabs{
+    margin-top: 50 px;
+    flex-direction: row;
+    margin-right: 5px solid red;
+  }
+  .top{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px solid red;
+    outline: 1px solid blue;
+    /* margin-top: 150px; */
+  }
+  .logo{
+    margin-top: 0px;
+  }
+  .user{
+    margin-top: 35px;
+    margin-right: 5 em;
+    /* width: 100px;
+    height: 20px; */
+  }
+  .search-field{
+    margin-top: 4em;
+    padding-left: 10px;
+    grid-column: 1 / 8;
+  }
+  /* .search{
+    padding-top: 2 em;
+  } */
+  main{
+    grid-column: 1/8;
+    padding-top: 10px;
+    padding-left: 10px;
+
+  }
+  
+}
+
+ 
