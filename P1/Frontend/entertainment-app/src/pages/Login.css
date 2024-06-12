@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Outfit-Light;
+  src: url(Outfit/static/Outfit-Light.ttf);
+}
+
+body {
+  background-color: #10141E;
+  display: grid;
+  margin: 2px solid blue ;
+  grid-template-columns: 70px repeat(7, 1fr);
+  grid-auto-rows: 50px minmax(100px, auto);
+  gap: 10px;
+}
+
+h1 {
+  font-family: Outfit-Light;
+  color: #FFFFFF;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: Outfit-Light;
+  color: #FFFFFF;
+  font-size: 24px;
+}
