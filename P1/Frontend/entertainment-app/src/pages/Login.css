@@ -3,23 +3,77 @@
   src: url(Outfit/static/Outfit-Light.ttf);
 }
 
+:root {
+  --pure-white: #FFFFFF;
+  --greyish-blue: #5A698F;
+  --semi-dark-blue: #161D2F;
+  --dark-blue: #10141E;
+  --red: #FC4747;
+}
+
+a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 15px;
+}
+
 body {
-  background-color: #10141E;
-  display: grid;
-  margin: 2px solid blue ;
-  grid-template-columns: 70px repeat(7, 1fr);
-  grid-auto-rows: 50px minmax(100px, auto);
-  gap: 10px;
+  background-color: var(--dark-blue);
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+
+  background-color: var(--red);
+  color: var(--pure-white);
+
+  margin: 32px 0 24px 0;
+
+  width: 336px;
+  height: 48px;
+  
 }
 
 h1 {
   font-family: Outfit-Light;
-  color: #FFFFFF;
+  color: var(--pure-white);
   font-size: 32px;
+  margin-left:
 }
 
 h2 {
   font-family: Outfit-Light;
-  color: #FFFFFF;
+  color: var(--pure-white);
   font-size: 24px;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--greyish-blue);
+  background-color: #161D2F;
+  color: var(--pure-white);
+  padding-bottom: 17px;
+  padding-left: 17px;
+  width: 319px;
+  margin: 8px 0 8px 0;
+  font-size: 15px;
+}
+
+p {
+  color: var(--pure-white);
+  font-size: 15px;
+}
+
+.container {
+  background-color: #161D2F;
+  padding: 32px;
+  border-radius: 20px;
+  width: 400px;
+  height: 373px;
+}
+
+.no-acct {
+  margin-left: 75px;
 }
