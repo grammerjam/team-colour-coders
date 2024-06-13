@@ -1,14 +1,14 @@
 @font-face {
   font-family: Outfit-Light;
-  src: url(Outfit/static/Outfit-Light.ttf);
+  src: url(./Outfit/static/Outfit-Light.ttf);
 }
 
 :root {
-  --pure-white: #FFFFFF;
-  --greyish-blue: #5A698F;
-  --semi-dark-blue: #161D2F;
-  --dark-blue: #10141E;
-  --red: #FC4747;
+  --pure-white: #ffffff;
+  --greyish-blue: #5a698f;
+  --semi-dark-blue: #161d2f;
+  --dark-blue: #10141e;
+  --red: #fc4747;
 }
 
 a {
@@ -32,14 +32,13 @@ button {
 
   width: 336px;
   height: 48px;
-  
 }
 
 h1 {
   font-family: Outfit-Light;
   color: var(--pure-white);
   font-size: 32px;
-  margin-left:
+  margin-right: 63%;
 }
 
 h2 {
@@ -52,7 +51,7 @@ input {
   outline: 0;
   border-width: 0 0 2px;
   border-color: var(--greyish-blue);
-  background-color: #161D2F;
+  background-color: #161d2f;
   color: var(--pure-white);
   padding-bottom: 17px;
   padding-left: 17px;
@@ -66,14 +65,21 @@ p {
   font-size: 15px;
 }
 
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .container {
-  background-color: #161D2F;
-  padding: 32px;
+  background-color: #161d2f;
+  padding: 32px 32px 0 32px;
   border-radius: 20px;
   width: 400px;
   height: 373px;
 }
 
 .no-acct {
-  margin-left: 75px;
+  margin: 0 auto;
 }
