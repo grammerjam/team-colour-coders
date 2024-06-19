@@ -22,14 +22,12 @@ body {
 }
 
 button {
+  font-family: Outfit-Light;
   border: none;
   border-radius: 5px;
-
   background-color: var(--red);
   color: var(--pure-white);
-
   margin: 32px 0 24px 0;
-
   width: 336px;
   height: 48px;
 }
@@ -38,7 +36,6 @@ h1 {
   font-family: Outfit-Light;
   color: var(--pure-white);
   font-size: 32px;
-  margin-right: 63%;
 }
 
 h2 {
@@ -47,11 +44,8 @@ h2 {
   font-size: 24px;
 }
 
-img {
-  margin-bottom: 83px;
-}
-
 input {
+  font-family: Outfit-Light;
   outline: 0;
   border-width: 0 0 2px;
   border-color: var(--greyish-blue);
@@ -65,8 +59,13 @@ input {
 }
 
 p {
+  font-family: Outfit-Light;
   color: var(--pure-white);
   font-size: 15px;
+}
+
+svg {
+  margin-bottom: 83px;
 }
 
 .center-box {
@@ -79,10 +78,14 @@ p {
 
 .container {
   background-color: #161d2f;
-  padding: 32px 32px 0 32px;
+  /* padding: 32px 32px 0 32px; */
   border-radius: 20px;
   width: 400px;
   height: 373px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .no-acct {
