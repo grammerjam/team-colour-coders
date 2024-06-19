@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Outfit-Light;
+    src: url(./Outfit/static/Outfit-Light.ttf);
+  }
+  
+  :root {
+    --pure-white: #ffffff;
+    --greyish-blue: #5a698f;
+    --semi-dark-blue: #161d2f;
+    --dark-blue: #10141e;
+    --red: #fc4747;
+  }
+  
+  a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  body {
+    background-color: var(--dark-blue);
+  }
+  
+  button {
+    font-family: Outfit-Light;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--red);
+    color: var(--pure-white);
+    margin: 17px 0 10px 0;
+    padding: 14px 0 15px 0;
+    width: 336px;
+    height: 48px;
+  }
+  
+  h1 {
+    font-family: Outfit-Light;
+    color: var(--pure-white);
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-family: Outfit-Light;
+    color: var(--pure-white);
+    font-size: 24px;
+  }
+  
+  input {
+    font-family: Outfit-Light;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: var(--greyish-blue);
+    background-color: #161d2f;
+    color: var(--pure-white);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 17px;
+    width: 319px;
+    margin: 8px 0 8px 0;
+    font-size: 15px;
+  }
+  
+  p {
+    font-family: Outfit-Light;
+    color: var(--pure-white);
+    font-size: 15px;
+  }
+  
+  svg {
+    margin-bottom: 83px;
+  }
+  
+  .center-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #161d2f;
+    padding-bottom: 32px;
+    border-radius: 20px;
+    width: 400px;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
