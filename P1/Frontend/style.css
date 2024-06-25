@@ -194,15 +194,20 @@ main {
     grid-row: 1;
     grid-column: 1/-1;
     flex-direction: row;
-    width: 100%;
+    width: 96%;
     margin-top: 2 em;
     margin-right: 10px;
+    margin-left: 10px;
     justify-content: space-between;
     background-color: rgb(23,29,46);
     padding: 10px;
     align-items: center;
     border-radius: 5px;
+    /* border: 2px solid red; */
     
+  }
+  .sidebar{
+    padding-left: 100px;
   }
   .tabs{
     margin-top: 50 px;
@@ -221,7 +226,7 @@ main {
   }
   .user{
     margin-top: 35px;
-    margin-right: 5 em;
+    margin-right: 6 em;
     /* width: 100px;
     height: 20px; */
   }
