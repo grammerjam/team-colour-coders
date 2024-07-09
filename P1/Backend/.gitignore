@@ -14,4 +14,9 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+# Node modules directory
 node_modules/
+
+# Environment files
+.env

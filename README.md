@@ -42,6 +42,17 @@ npm install
 ```bash
 npm run start
 ```
+### Important: Setting Up the .env File for Database Connection
 
+To ensure the application can connect to the remote MySQL database, please follow these steps:
+
+1. **Copy the .env.example File:**
+   Create a copy of the `.env.example` file in the root directory of the `Backend` folder and name it `.env`.
+
+   ```sh
+   cp .env.example .env
+
+2. **Edit the .env File:**
+Open the .env file and replace the placeholder values with the actual database credentials provided by the Aiven service.
 ______________________________
 **Powered by [Grammerhub](http://discord.grammerhub.org)**
